@@ -1,1 +1,125 @@
+body {
+  font-family: 'Helvetica';
+  color: #FFFFFF;
+  background-color: #177893
+}
+h1 {
+  font-size: 16
+}
 
+p {
+  font-size: 14
+}
+
+a.button {
+	display: inline-block;
+	color: #05A8AA;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 3px solid #05A8AA;
+  width: 75px;
+}
+
+
+.bradley {
+  display: flex;
+  flex-direction: column;
+  width: 66%
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 250px;
+}
+
+.profile {
+  display: flex;
+  background-color: #F75C03;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  padding-left: 30px;
+  height: 250px;
+}
+
+.experience {
+  display: flex;
+  background-color: #88B74B;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.education {
+  display: flex;
+  background-color: #B28095;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  padding-left: 30px;
+  height: 250px;
+}
+
+.social_menu {
+  display: flex;
+  background-color: #F75C03;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  background-color: #88B74B;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio {
+  display: flex;
+  background-color: #F75C03;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  display: flex;
+  width: 33%
+}
+
+.all {
+  display: all;
+  flex-direction: all;
+  height: 100%;
+}
